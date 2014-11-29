@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F361D1421A298ACC00BD5687 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F361D1411A298ACC00BD5687 /* main.m */; };
+		F361D1451A298ACC00BD5687 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F361D1441A298ACC00BD5687 /* AppDelegate.m */; };
+		F361D1481A298ACC00BD5687 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F361D1471A298ACC00BD5687 /* FirstViewController.m */; };
+		F361D14B1A298ACC00BD5687 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F361D14A1A298ACC00BD5687 /* SecondViewController.m */; };
+		F361D14E1A298ACC00BD5687 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F361D14C1A298ACC00BD5687 /* Main.storyboard */; };
+		F361D1501A298ACC00BD5687 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F361D14F1A298ACC00BD5687 /* Images.xcassets */; };
+		F361D1531A298ACC00BD5687 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F361D1511A298ACC00BD5687 /* LaunchScreen.xib */; };
+		F361D15F1A298ACC00BD5687 /* HandballScoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F361D15E1A298ACC00BD5687 /* HandballScoreTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F361D1591A298ACC00BD5687 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F361D1341A298ACC00BD5687 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F361D13B1A298ACC00BD5687;
+			remoteInfo = HandballScore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F361D13C1A298ACC00BD5687 /* HandballScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandballScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F361D1401A298ACC00BD5687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F361D1411A298ACC00BD5687 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F361D1431A298ACC00BD5687 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F361D1441A298ACC00BD5687 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F361D1461A298ACC00BD5687 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		F361D1471A298ACC00BD5687 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		F361D1491A298ACC00BD5687 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F361D14A1A298ACC00BD5687 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F361D14D1A298ACC00BD5687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F361D14F1A298ACC00BD5687 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F361D1521A298ACC00BD5687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F361D1581A298ACC00BD5687 /* HandballScoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandballScoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F361D15D1A298ACC00BD5687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F361D15E1A298ACC00BD5687 /* HandballScoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandballScoreTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F361D1391A298ACC00BD5687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F361D1551A298ACC00BD5687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F361D1331A298ACC00BD5687 = {
+			isa = PBXGroup;
+			children = (
+				F361D13E1A298ACC00BD5687 /* HandballScore */,
+				F361D15B1A298ACC00BD5687 /* HandballScoreTests */,
+				F361D13D1A298ACC00BD5687 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F361D13D1A298ACC00BD5687 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F361D13C1A298ACC00BD5687 /* HandballScore.app */,
+				F361D1581A298ACC00BD5687 /* HandballScoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F361D13E1A298ACC00BD5687 /* HandballScore */ = {
+			isa = PBXGroup;
+			children = (
+				F361D1431A298ACC00BD5687 /* AppDelegate.h */,
+				F361D1441A298ACC00BD5687 /* AppDelegate.m */,
+				F361D1461A298ACC00BD5687 /* FirstViewController.h */,
+				F361D1471A298ACC00BD5687 /* FirstViewController.m */,
+				F361D1491A298ACC00BD5687 /* SecondViewController.h */,
+				F361D14A1A298ACC00BD5687 /* SecondViewController.m */,
+				F361D14C1A298ACC00BD5687 /* Main.storyboard */,
+				F361D14F1A298ACC00BD5687 /* Images.xcassets */,
+				F361D1511A298ACC00BD5687 /* LaunchScreen.xib */,
+				F361D13F1A298ACC00BD5687 /* Supporting Files */,
+			);
+			path = HandballScore;
+			sourceTree = "<group>";
+		};
+		F361D13F1A298ACC00BD5687 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F361D1401A298ACC00BD5687 /* Info.plist */,
+				F361D1411A298ACC00BD5687 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F361D15B1A298ACC00BD5687 /* HandballScoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				F361D15E1A298ACC00BD5687 /* HandballScoreTests.m */,
+				F361D15C1A298ACC00BD5687 /* Supporting Files */,
+			);
+			path = HandballScoreTests;
+			sourceTree = "<group>";
+		};
+		F361D15C1A298ACC00BD5687 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F361D15D1A298ACC00BD5687 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F361D13B1A298ACC00BD5687 /* HandballScore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F361D1621A298ACC00BD5687 /* Build configuration list for PBXNativeTarget "HandballScore" */;
+			buildPhases = (
+				F361D1381A298ACC00BD5687 /* Sources */,
+				F361D1391A298ACC00BD5687 /* Frameworks */,
+				F361D13A1A298ACC00BD5687 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandballScore;
+			productName = HandballScore;
+			productReference = F361D13C1A298ACC00BD5687 /* HandballScore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F361D1571A298ACC00BD5687 /* HandballScoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F361D1651A298ACC00BD5687 /* Build configuration list for PBXNativeTarget "HandballScoreTests" */;
+			buildPhases = (
+				F361D1541A298ACC00BD5687 /* Sources */,
+				F361D1551A298ACC00BD5687 /* Frameworks */,
+				F361D1561A298ACC00BD5687 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F361D15A1A298ACC00BD5687 /* PBXTargetDependency */,
+			);
+			name = HandballScoreTests;
+			productName = HandballScoreTests;
+			productReference = F361D1581A298ACC00BD5687 /* HandballScoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F361D1341A298ACC00BD5687 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Steven Liao";
+				TargetAttributes = {
+					F361D13B1A298ACC00BD5687 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					F361D1571A298ACC00BD5687 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F361D13B1A298ACC00BD5687;
+					};
+				};
+			};
+			buildConfigurationList = F361D1371A298ACC00BD5687 /* Build configuration list for PBXProject "HandballScore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F361D1331A298ACC00BD5687;
+			productRefGroup = F361D13D1A298ACC00BD5687 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F361D13B1A298ACC00BD5687 /* HandballScore */,
+				F361D1571A298ACC00BD5687 /* HandballScoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F361D13A1A298ACC00BD5687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F361D14E1A298ACC00BD5687 /* Main.storyboard in Resources */,
+				F361D1531A298ACC00BD5687 /* LaunchScreen.xib in Resources */,
+				F361D1501A298ACC00BD5687 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F361D1561A298ACC00BD5687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F361D1381A298ACC00BD5687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F361D14B1A298ACC00BD5687 /* SecondViewController.m in Sources */,
+				F361D1451A298ACC00BD5687 /* AppDelegate.m in Sources */,
+				F361D1481A298ACC00BD5687 /* FirstViewController.m in Sources */,
+				F361D1421A298ACC00BD5687 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F361D1541A298ACC00BD5687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F361D15F1A298ACC00BD5687 /* HandballScoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F361D15A1A298ACC00BD5687 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F361D13B1A298ACC00BD5687 /* HandballScore */;
+			targetProxy = F361D1591A298ACC00BD5687 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F361D14C1A298ACC00BD5687 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F361D14D1A298ACC00BD5687 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F361D1511A298ACC00BD5687 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F361D1521A298ACC00BD5687 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F361D1601A298ACC00BD5687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F361D1611A298ACC00BD5687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F361D1631A298ACC00BD5687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HandballScore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F361D1641A298ACC00BD5687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HandballScore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F361D1661A298ACC00BD5687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HandballScoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandballScore.app/HandballScore";
+			};
+			name = Debug;
+		};
+		F361D1671A298ACC00BD5687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HandballScoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandballScore.app/HandballScore";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F361D1371A298ACC00BD5687 /* Build configuration list for PBXProject "HandballScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F361D1601A298ACC00BD5687 /* Debug */,
+				F361D1611A298ACC00BD5687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F361D1621A298ACC00BD5687 /* Build configuration list for PBXNativeTarget "HandballScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F361D1631A298ACC00BD5687 /* Debug */,
+				F361D1641A298ACC00BD5687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F361D1651A298ACC00BD5687 /* Build configuration list for PBXNativeTarget "HandballScoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F361D1661A298ACC00BD5687 /* Debug */,
+				F361D1671A298ACC00BD5687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F361D1341A298ACC00BD5687 /* Project object */;
+}
