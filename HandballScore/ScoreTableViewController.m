@@ -29,6 +29,7 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [self loadData];
+    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning {
