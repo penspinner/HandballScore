@@ -214,7 +214,7 @@
     NSMutableArray *rootObject = [NSKeyedUnarchiver unarchiveObjectWithFile:path];
     if (rootObject == nil)  rootObject = [[NSMutableArray alloc]init];
     // ADD THE CURRENT SCOREOBJECT
-    [rootObject addObject:self.currentObject];
+    [rootObject insertObject:self.currentObject atIndex:0];
     // SAVE IT INTO THE PATH
     [NSKeyedArchiver archiveRootObject:rootObject toFile:path];
 }

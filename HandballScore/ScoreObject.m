@@ -49,12 +49,9 @@
 /* Returns a NSString of the ScoreObject */
 - (NSString *)toString
 {
-    return [NSString stringWithFormat:@"Player1Name: %@\n\
-                                        Player2Name: %@\n\
-                                        Player1Score: %d\n\
-                                        Player2Score: %d\n",
-                                        self.player1Name, self.player2Name,
-                                        self.player1Score, self.player2Score];
+    return [NSString stringWithFormat:@"%@: %d \n %@: %d",
+                                        self.player1Name, self.player1Score,
+                                        self.player2Name, self.player2Score];
 }
 
 - (void)encodeWithCoder:(NSCoder *)aCoder
